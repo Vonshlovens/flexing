@@ -6,11 +6,37 @@
 
 .menu-container {
     color: #fff;
-    background-color: #5995DA; /* Blue */
+    background-color: #418dff; /* Blue */
     padding: 20px 0;
+    display: flex;
+    justify-content: center;
 }
 
 .menu {
-    border: 1px solid #fff; /* for debugging */
     width: 900px;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login {
+    margin-left: 20px;
+}
+
+.header-container {
+    color: #5995DA;
+    background-color: #d6e9fe;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
 }
